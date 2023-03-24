@@ -10,6 +10,16 @@ The entire Laravel project also has TailwindCSS themes, Vite.js to compile scrip
 -   WSL2 (recommended)
 -   OpenAI account for API Key
 
+<h4>Basic Installation</h4>
+
+-   Clone this repository
+-   Run `composer update` or  `composer install`
+-   Run `npm update` or  `npm install`
+-   Copy the name of the .env.example file as .env and make a database connection and enter the openai api in .env file
+-   After run `php artisan migrate`
+-   Finally start `php artisan serve` and `npm run dev`
+
+
 <h4>Installation</h4>
 
 -   Clone this repository
